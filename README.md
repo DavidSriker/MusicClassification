@@ -1,9 +1,9 @@
 # Music Classification Implemented in Pytorch
 This repository is a part of music genre classification.
-Companies nowadays use music classification, either to be able to place recommendations to their customers 
+Companies nowadays use music classification, either to be able to place recommendations to their customers
 (such as Spotify, Soundcloud) or simply as a product (for example Shazam).
 Determining music genres is the first step in that direction.\
-Machine Learning techniques have proved to be quite successful in extracting trends and patterns from the large pool of data. 
+Machine Learning techniques have proved to be quite successful in extracting trends and patterns from the large pool of data.
 The same principles are applied in Music Analysis also.
 
 The data was obtained from:
@@ -74,15 +74,14 @@ The test confusion matrix is:
 ![Image description](confusionMatrix.png?raw=true)
 
 
-## 
--[x]  Pre-Process the raw data
--[x]  Implement CRNN model
--[ ]  Implemnt a parallel CRNN model, [Acoustic Scene Classification 
+## TO-DO List
+- [x]  Pre-Process the raw data
+- [x]  Implement CRNN model
+- [ ]  Implemnt a parallel CRNN model, [Acoustic Scene Classification
 Using Parallel Combination of LSTM and CNN](https://pdfs.semanticscholar.org/4e7d/ad845bd9e1d399bf729724442cb7404549d1.pdf)
--[x]  Implement Train script
--[x]  Implement Test script
--[x]  Export plots and confusion matrix
--[ ]
+- [x]  Implement Train script
+- [x]  Implement Test script
+- [x]  Export plots and confusion matrix
 
 ---
 ### Author
